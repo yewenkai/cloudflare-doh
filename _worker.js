@@ -6,16 +6,16 @@
 
 // Default configuration for path mappings
 const DEFAULT_PATH_MAPPINGS = {
-	'/google': {
+	'/assets2': {
 		targetDomain: 'dns.google',
 		pathMapping: {
-			'/query-dns': '/dns-query',
+			'/data.bin': '/dns-query',
 		},
 	},
-	'/cloudflare': {
+	'/assets': {
 		targetDomain: 'one.one.one.one',
 		pathMapping: {
-			'/query-dns': '/dns-query',
+			'/data.bin': '/dns-query',
 		},
 	},
 	// Add more path mappings as needed
@@ -513,3 +513,4 @@ export default {
 		return handleRequest(request, env);
 	},
 };
+

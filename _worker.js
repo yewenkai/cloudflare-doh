@@ -18,6 +18,12 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/data.bin': '/dns-query',
 		},
 	},
+	 '/assets3': {
+        targetDomain: 'dns.adguard-dns.com',
+        pathMapping: {
+            '/data.bin': '/dns-query',
+        },
+    },
 	// Add more path mappings as needed
 };
 
